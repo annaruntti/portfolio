@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Bootstrap 101 Template</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="	sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	</head>
+	<body>
+		<header id="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8"><h1>JalostusNet</h1></div>
+					<div class="col-md-4">
+						<form class="navbar-form navbar-left" role="Search">
+                    		<div class="form-group">
+   								 <input type="text" class="form-control" placeholder="Haku ..">
+  							</div>
+  							<button type="submit" class="btn btn-default">Etsi sivustolta</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<header id="header">
+			<div class="container">
+				<div class="row" id="header-background">
+				</div>
+			</div>
+		</header>
+		<div class="container" id="main">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-8" id="navigation">
+					<div class="pull-right"></div>
+						<nav class="navbar navbar-default">
+							<div class="navbar-header">
+      							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        							<span class="sr-only">Toggle navigation</span>
+        							<span class="icon-bar"></span>
+        							<span class="icon-bar"></span>
+        							<span class="icon-bar"></span>
+      							</button>
+      							<a class="navbar-brand" href="Index.html">Etusivu</a>
+    						</div>
+    						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      							<ul class="nav navbar-nav">
+        							<li class="active"><a href="Uroshaku.html">Uroshaku <span class="sr-only">(current)</span></a></li>
+        							<li><a href="Urosilmoituslomake.html">Urosilmoituslomake</a></li>
+        						</ul>
+    					</nav>
+					</div>
+				</div>
+			</div>
+			<div class="container" id="main">
+			<div class="row" id="main-area">
+				<div class="col-md-8" id="sidebar-left">
+					<h2>Uroshaku</h2>
+					<h3>Perustiedot</h3>
+					<form>
+  					<fieldset disabled>
+   						<div class="form-group">
+   							<label for="disabledSelect">Rotu</label>
+      						<select id="disabledSelect" class="form-control">
+        						<option>Valitse rotu</option>
+      						</select>
+   						</div>
+   						<div class="checkbox">
+      						<label>
+        						<input type="checkbox"> Ei löydy
+      						</label>
+    					</div>
+    					<div class="form-group">
+    						<label for="disabledTextInput">Väri</label>
+      							<input type="text" id="disabledTextInput" class="form-control" placeholder="Kirjoita väri">
+    					</div>
+  					</fieldset>
+  						<h3>Tulokset</h3>
+  						<form>
+  						<fieldset disabled>
+   							<div class="form-group">
+   							 	<label for="disabledSelect">LTE</label>
+      							<select id="disabledSelect" class="form-control">
+        							<option>Valitse luonnetestitulos</option>
+      							</select>
+   							</div>
+   							<div class="checkbox">
+      							<label>
+        							<input type="checkbox"> Tai parempi
+      							</label>
+    						</div>
+    						<div class="form-group">
+   						 		<label for="disabledSelect">MH</label>
+      							<select id="disabledSelect" class="form-control">
+       								<option>Valitse MH-luonnekuvaustulos</option>
+     							</select>
+   							</div>
+   							<div class="checkbox">
+      							<label>
+        							<input type="checkbox"> Tai parempi
+      							</label>
+    						</div>
+   							<div class="form-group">
+   						 		<label for="disabledSelect">Näyttelytulos</label>
+      							<select id="disabledSelect" class="form-control">
+       								<option>Valitse näyttelytulos</option>
+      							</select>
+   							</div>
+   							<div class="checkbox">
+      							<label>
+       								<input type="checkbox"> Tai parempi
+      							</label>
+    						</div>
+    					</fieldset>
+    					<h3>Terveys</h3>
+  						<form>
+  						<fieldset disabled>
+    						<div class="form-group">
+   							 	<label for="disabledSelect">Lonkat</label>
+      							<select id="disabledSelect" class="form-control">
+        							<option>Valitse lonkkakuvaustulos</option>
+      							</select>
+   							</div>
+   							<div class="checkbox">
+      							<label>
+        							<input type="checkbox"> Tai parempi
+      							</label>
+    						</div>
+    						<div class="form-group">
+   						 		<label for="disabledSelect">Kyynärät</label>
+      							<select id="disabledSelect" class="form-control">
+       								<option>Valitse kyynärkuvaustulos</option>
+     							</select>
+   							</div>
+   							<div class="checkbox">
+      							<label>
+        							<input type="checkbox"> Tai parempi
+      							</label>
+    						</div>
+   							<div class="form-group">
+   						 		<label for="disabledSelect">Polvet</label>
+      							<select id="disabledSelect" class="form-control">
+       								<option>Valitse polvilausuntotulos</option>
+      							</select>
+   							</div>
+   							<div class="checkbox">
+      							<label>
+       								<input type="checkbox"> Tai parempi
+      							</label>
+    						</div>
+    						<div class="form-group">
+   						 		<label for="disabledSelect">Selkä</label>
+      							<select id="disabledSelect" class="form-control">
+       								<option>Valitse selkäkuvaustulos</option>
+      							</select>
+   							</div>
+   							<div class="checkbox">
+      							<label>
+       								<input type="checkbox"> Tai parempi
+      							</label>
+    						</div>
+    						<div class="form-group">
+   						 		<label for="disabledSelect">Silmät</label>
+      							<select id="disabledSelect" class="form-control">
+       								<option>Valitse silmätutkimustulos</option>
+      							</select>
+   							</div>
+      						<button type="submit" class="btn btn-primary">Submit</button>
+  	 					</fieldset>
+						</form>
+					<div class="col-md-4" id="sidebar-right"></div>
+				<div class="container" id="main"></div>
+				</div>
+    	</div>
+    	</div>
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">@JalostusNet</p>
+			</div>
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</body>
+	</html>
